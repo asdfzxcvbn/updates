@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 	_ "embed"
-	"updates/db"
 
+	"github.com/asdfzxcvbn/updates/db"
 	_ "github.com/glebarez/go-sqlite"
 )
 

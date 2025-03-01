@@ -1,4 +1,4 @@
-module updates
+module github.com/asdfzxcvbn/updates
 
 go 1.24.0
 

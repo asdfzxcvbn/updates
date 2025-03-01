@@ -7,7 +7,8 @@ import (
 	"log"
 	"strings"
 	"time"
-	"updates/db"
+
+	"github.com/asdfzxcvbn/updates/db"
 )
 
 func main() {
