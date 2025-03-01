@@ -1,0 +1,28 @@
+# you can make a bot using @BotFather, then invite it to a group with admin privileges (give it the Manage Topics permission if necessary)
+# the bot token and group id will be validated at runtime.
+bot_token = ""
+
+# file path to open as the sqlite database for storing data. will be created at runtime if it doesn't exist.
+db_path = "./versions.db"
+
+# should have -100 prefix for all chat types except Private Messages.
+chat_id = ""
+
+# if `group_id` identifies a supergroup, the id of the topic to send messages to.
+# leave this as -1 to send messages to the default topic (usually "General") or to a normal chat (not supergroup).
+topic_id = -1
+
+# you can customize the message format here. you can use the following placeholders:
+# {app_name}, {old_version}, {new_version}, and {appstore_link}
+template = """
+a new update has been replaced for <code>{app_name}</code> !!
+
+updated from <strong>{old_version}</strong> to <strong>{new_version}</strong>.
+
+check it out here: {appstore_link}
+"""
+
+# fill this with app store links you'd like to monitor.
+apps = [
+    "https://apps.apple.com/us/app/spotify-music-and-podcasts/id324684580",  # spotify
+]
