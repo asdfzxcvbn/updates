@@ -3,7 +3,7 @@ module github.com/asdfzxcvbn/updates
 go 1.24.0
 
 require (
-	github.com/asdfzxcvbn/tgmessenger v1.1.1
+	github.com/asdfzxcvbn/tgmessenger v1.1.2
 	github.com/fsnotify/fsnotify v1.8.0
 	github.com/glebarez/go-sqlite v1.22.0
 	github.com/spf13/viper v1.19.0

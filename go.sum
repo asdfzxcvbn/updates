@@ -1,5 +1,7 @@
 github.com/asdfzxcvbn/tgmessenger v1.1.1 h1:yY8XO976S0aY1mzCZOYdr7nnXlIxRlrxroRiLNwobzw=
 github.com/asdfzxcvbn/tgmessenger v1.1.1/go.mod h1:+FnQgrMjkhQbWcVlfDiRzNkDZ6i4jlA50m/9qAexEPI=
+github.com/asdfzxcvbn/tgmessenger v1.1.2 h1:9wNIGaQEpuKbetigfcaCShpxIlnEN2/QNMsP4m9MTLI=
+github.com/asdfzxcvbn/tgmessenger v1.1.2/go.mod h1:+FnQgrMjkhQbWcVlfDiRzNkDZ6i4jlA50m/9qAexEPI=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc h1:U9qPSI2PIWSS1VwoXQT9A3Wy9MM3WgvqSxFWenqJduM=
 github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=

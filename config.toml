@@ -15,7 +15,7 @@ topic_id = -1
 # you can customize the message format here. you can use the following placeholders:
 # {app_name}, {old_version}, {new_version}, and {appstore_link}
 template = """
-a new update has been replaced for <code>{app_name}</code> !!
+a new update has been released for <code>{app_name}</code> !!
 
 updated from <strong>{old_version}</strong> to <strong>{new_version}</strong>.
 
