@@ -31,7 +31,8 @@ func main() {
 			latestInfo, err := getLatestInfo(appid)
 			if err != nil {
 				log.Printf("error fetching %s: %v", link, err)
-				log.Fatalln("this likely indicates the app no longer exists on the app store. it may also be the iTunes api's fault, so you should check if the app link is still valid.")
+				log.Printf("this likely indicates the app no longer exists on the app store. it may also be the iTunes api's fault, so you should check if the app link is still valid. anyway, continuing\n\n")
+				continue
 			}
 
 			currentVersion, err := dbQueries.GetCurrentVersion(dbCtx, appid)
